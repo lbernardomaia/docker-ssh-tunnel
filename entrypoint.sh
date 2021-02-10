@@ -2,7 +2,10 @@
 eval `ssh-agent -s`
 ssh-add
 while true;
+echo 'Connecting'
 do
-  ssh -nNT -L *:${LOCAL_PORT}:${REMOTE_SERVER}:${REMOTE_PORT} $SSH_USER@$SSH_BASTION_HOST;
+  ssh -o StrictHostKeyChecking=no \
+      -nNT -L *:${LOCAL_PORT}:${DESTINATION_SERVER}:${DESTINATION_PORT} \
+      $SSH_USER@$SSH_BASTION_HOST;
   echo 'Reconnecting'
 done
