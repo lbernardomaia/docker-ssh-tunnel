@@ -24,8 +24,8 @@ To connect : ```mysql --host=localhost --user=myname --password=password ```
 
 Other databases should work similarly, changing just the ports to use 
 the database correspondent port. For example:
- - Postgresl: 5432
- - Mongodb: 27017
+ - PostgreSQL: 5432
+ - MongoDB: 27017
 
 ### Dockerhub:
 
