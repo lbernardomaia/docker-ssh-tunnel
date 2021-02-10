@@ -6,7 +6,7 @@ while the image is running.
 
 ### How to use
 
-####Mysql:
+#### Mysql:
 ```
 docker run -it --rm \
 -e LOCAL_PORT=3306 \
@@ -20,7 +20,7 @@ docker run -it --rm \
 
 To connect : ```mysql --host=localhost --user=myname --password=password ```
 
-####Others:
+#### Others:
 
 Other databases should work similarly, changing just the ports to use 
 the database correspondent port. For example:
