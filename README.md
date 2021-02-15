@@ -29,4 +29,4 @@ the database correspondent port. For example:
 
 ### Dockerhub:
 
-https://hub.docker.com/repository/docker/lbernardomaia/ssh-tunnel
+https://hub.docker.com/r/lbernardomaia/ssh-tunnel
